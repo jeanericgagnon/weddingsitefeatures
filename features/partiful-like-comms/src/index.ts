@@ -21,3 +21,5 @@ export * from './templateManagerExample';
 export * from './eventAggregationTypes';
 export * from './eventAggregationUtils';
 export * from './eventAggregationExample';
+export * from './commsApiAdapter';
+export * from './commsScreenMap';
