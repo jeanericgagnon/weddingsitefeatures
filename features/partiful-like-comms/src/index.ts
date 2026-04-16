@@ -23,3 +23,6 @@ export * from './eventAggregationUtils';
 export * from './eventAggregationExample';
 export * from './commsApiAdapter';
 export * from './commsScreenMap';
+export * from './smsSegmentTypes';
+export * from './smsSegmentUtils';
+export * from './smsSegmentCounterExample';
