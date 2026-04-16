@@ -16,6 +16,7 @@
 - `event-aggregation-notes.md`
 - `sms-segment-billing-spec.md`
 - `sms-segment-rollout-notes.md`
+- `sms-copy-pack.md`
 
 ## Handoff / integration
 - `custom-audience-support-spec.md`
@@ -27,6 +28,7 @@
 - `main-repo-file-by-file-texting-map.md`
 - `pr-sized-execution-plan.md`
 - `migration-proposal-pack-notes.md`
+- `runnable-package-notes.md`
 
 ## Batch summaries
 - `batch-2-summary.md`
@@ -35,3 +37,4 @@
 - `batch-5-summary.md`
 - `batch-6-summary-grounded-audit.md`
 - `batch-7-summary.md`
+- `batch-8-summary.md`

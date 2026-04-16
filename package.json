@@ -1,0 +1,13 @@
+{
+  "name": "weddingsitefeatures",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Plug-in-ready feature workspace for wedding-site-Bolt integrations",
+  "scripts": {
+    "check:fixtures": "node scripts/check-fixtures.mjs",
+    "test:sms-segments": "node features/partiful-like-comms/src/smsSegmentUtils.test.ts",
+    "test:send-adapter": "node features/partiful-like-comms/src/sendBulkMessageAdapter.test.ts",
+    "test": "npm run test:sms-segments && npm run test:send-adapter"
+  }
+}
