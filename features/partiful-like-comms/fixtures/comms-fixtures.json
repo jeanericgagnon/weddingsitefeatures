@@ -1,0 +1,59 @@
+{
+  "messageComposer": {
+    "channel": "sms",
+    "audience": "not_responded",
+    "templateId": "sms-reminder-1",
+    "subject": "",
+    "body": "Hi {{guestFirstName}} — quick reminder to RSVP by {{deadline}}: {{rsvpLink}}",
+    "guestIds": []
+  },
+  "guestTimeline": {
+    "guestName": "Taylor Smith",
+    "guestId": "guest_123",
+    "events": [
+      {
+        "id": "evt_1",
+        "type": "invite_sent",
+        "title": "Invitation sent",
+        "description": "Initial SMS invitation delivered.",
+        "channel": "sms",
+        "timestamp": "2026-04-12 10:15",
+        "status": "success"
+      },
+      {
+        "id": "evt_2",
+        "type": "rsvp_updated",
+        "title": "RSVP marked confirmed",
+        "description": "Guest replied YES by text.",
+        "timestamp": "2026-04-12 10:18",
+        "status": "success"
+      }
+    ]
+  },
+  "inboundReview": [
+    {
+      "id": "in_1",
+      "from": "+16195551234",
+      "rawBody": "yep we will be there",
+      "normalizedBody": "yep we will be there",
+      "interpretedStatus": null,
+      "processResult": "needs_clarification",
+      "receivedAt": "2026-04-16 11:12",
+      "possibleGuestName": "Taylor Smith",
+      "possibleWeddingSiteId": "site_123"
+    }
+  ],
+  "campaignAnalytics": {
+    "summary": {
+      "messageId": "msg_1",
+      "channel": "sms",
+      "status": "sent",
+      "recipientCount": 120,
+      "deliveredCount": 106,
+      "failedCount": 14,
+      "repliedCount": 39,
+      "confirmedCount": 28,
+      "declinedCount": 11
+    }
+  }
+}

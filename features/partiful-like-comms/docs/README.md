@@ -25,6 +25,8 @@
 - `grounded-segment-migration-plan.md`
 - `grounded-main-repo-patch-spec.md`
 - `main-repo-file-by-file-texting-map.md`
+- `pr-sized-execution-plan.md`
+- `migration-proposal-pack-notes.md`
 
 ## Batch summaries
 - `batch-2-summary.md`
@@ -32,3 +34,4 @@
 - `batch-4-summary.md`
 - `batch-5-summary.md`
 - `batch-6-summary-grounded-audit.md`
+- `batch-7-summary.md`
