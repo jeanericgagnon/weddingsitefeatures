@@ -8,6 +8,8 @@
     "check:fixtures": "node scripts/check-fixtures.mjs",
     "test:sms-segments": "node features/partiful-like-comms/src/smsSegmentUtils.test.ts",
     "test:send-adapter": "node features/partiful-like-comms/src/sendBulkMessageAdapter.test.ts",
-    "test": "npm run test:sms-segments && npm run test:send-adapter"
+    "test:reminder-guardrails": "node features/rsvp-reminders-scheduled/src/reminderGuardrails.test.ts",
+    "test:reminder-adapter": "node features/rsvp-reminders-scheduled/src/reminderPayloadAdapter.test.ts",
+    "test": "npm run test:sms-segments && npm run test:send-adapter && npm run test:reminder-guardrails && npm run test:reminder-adapter"
   }
 }
