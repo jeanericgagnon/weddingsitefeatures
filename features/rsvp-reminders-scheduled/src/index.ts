@@ -10,3 +10,6 @@ export * from './reminderSaveAndSendExample';
 export * from './reminderHistoryTypes';
 export * from './reminderDedupeUtils';
 export * from './reminderOrchestrator';
+export * from './reminderHistoryUtils';
+export * from './reminderCampaignSummary';
+export * from './reminderService';

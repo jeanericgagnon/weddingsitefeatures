@@ -15,6 +15,9 @@
     "test:reminder-filter": "node features/rsvp-reminders-scheduled/src/reminderRecentFilter.test.ts",
     "test:reminder-dedupe": "node features/rsvp-reminders-scheduled/src/reminderDedupeUtils.test.ts",
     "test:reminder-orchestrator": "node features/rsvp-reminders-scheduled/src/reminderOrchestrator.test.ts",
-    "test": "npm run test:sms-segments && npm run test:send-adapter && npm run test:reminder-guardrails && npm run test:reminder-adapter && npm run test:reminder-audience && npm run test:reminder-schedule && npm run test:reminder-filter && npm run test:reminder-dedupe && npm run test:reminder-orchestrator"
+    "test:reminder-history": "node features/rsvp-reminders-scheduled/src/reminderHistoryUtils.test.ts",
+    "test:reminder-summary": "node features/rsvp-reminders-scheduled/src/reminderCampaignSummary.test.ts",
+    "test:reminder-service": "node features/rsvp-reminders-scheduled/src/reminderService.test.ts",
+    "test": "npm run test:sms-segments && npm run test:send-adapter && npm run test:reminder-guardrails && npm run test:reminder-adapter && npm run test:reminder-audience && npm run test:reminder-schedule && npm run test:reminder-filter && npm run test:reminder-dedupe && npm run test:reminder-orchestrator && npm run test:reminder-history && npm run test:reminder-summary && npm run test:reminder-service"
   }
 }
