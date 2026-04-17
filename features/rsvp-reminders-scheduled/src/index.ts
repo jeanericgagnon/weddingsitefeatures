@@ -3,3 +3,7 @@ export * from './reminderSchedulerExample';
 export * from './reminderGuardrails';
 export * from './reminderPayloadAdapter';
 export * from './reminderFixtures';
+export * from './reminderAudienceUtils';
+export * from './reminderScheduleUtils';
+export * from './reminderRecentFilter';
+export * from './reminderSaveAndSendExample';
