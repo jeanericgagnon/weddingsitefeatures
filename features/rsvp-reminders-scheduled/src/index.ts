@@ -7,3 +7,6 @@ export * from './reminderAudienceUtils';
 export * from './reminderScheduleUtils';
 export * from './reminderRecentFilter';
 export * from './reminderSaveAndSendExample';
+export * from './reminderHistoryTypes';
+export * from './reminderDedupeUtils';
+export * from './reminderOrchestrator';
